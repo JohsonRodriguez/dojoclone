@@ -1,10 +1,10 @@
-package com.dojo;
+package com.classdojo.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DojoApplicationTests {
+class ClassdojoApplicationTests {
 
 	@Test
 	void contextLoads() {
