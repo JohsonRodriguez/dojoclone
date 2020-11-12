@@ -24,7 +24,19 @@ aria-controls="navbar">
 </div>
 </div>
 </div>
-<!-- create navigation -->
+<!-- create form -->
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<!-- success message -->
+<div th:if=${param.success}>
+<div class="alert alert-info">You've successfully registered to our awesome app!</div></div>
+<h1>Registration</h1>
+<form th:action="@{/registration}" method="post" th:object="${}"></form>
+
+</div>
+</div>
+</div>
 
 </body>
 </html>
